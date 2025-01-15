@@ -34,3 +34,37 @@
     font-weight: bold;
     background-color: gray;
 }
+.input-bar{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid orangered;
+    text-align: center;
+}
+input {
+   width: 50%;
+}
+.radio-btns {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    border: 2px dotted blue;
+}
+.radio-btn-1,.radio-btn-2, .radio-btn-3, .radio-btn-4 {
+    border: 1px solid yellow;
+}
+.radio-btn-2 {
+}
+.radio-btn-3 {
+}
+.radio-btn-4 {
+}
+button {
+    border: 1px solid green;
+    padding: 5px;
+    text-align: center;
+    /* margin-right: 20px; */
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
