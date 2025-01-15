@@ -5,19 +5,30 @@
 .header {
     border: 2px solid yellowgreen;
 }
+.body {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    background-color: #fdebd0;
+}
 .left-aside {
-    border: 2px solid black;
+    width: 20%;
+    background-color: #f0ebea;
 }
 .right-aside{
-    border: 2px solid black;
+    width: 20%;
+    background-color: #d6eaf8;
 }
 .main-content {
-    border: 2px dotted red;
+    height: 45vh;
+    width: 40%;
+    padding-bottom: 55px;
 }
 .matrix {
-    width: 60vw;
-    height: 60vh;
-    border: 2px dashed green;
+    width: 100%;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -25,8 +36,6 @@
     margin: auto;
 }
 .cell {
-    /* height: 40%; */
-    /* width: 40%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,36 +44,75 @@
     background-color: gray;
 }
 .input-bar{
-    margin: 5px;
-    padding: 5px;
+    margin-top: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     border: 2px solid orangered;
     text-align: center;
+    box-sizing: border-box;
 }
 input {
-   width: 50%;
+    border: none;
+    background-color: #a9cce3;
+   margin: 0;
+   width: 100%;
+   box-sizing: border-box;
+}
+
+hr {
+    margin: 20px;
+}
+
+.input-container {
+    width: 100%;
+    height: 50px;
+    border: 1px solid gray;
+    padding: 0;
+    margin: 0;
+}
+
+.input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+/* SCRAPS */
+/* .btns {
+    width: 50%;
+    margin: auto;
+    background-color: pink;
 }
 .radio-btns {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
+    display: flex; 
+    flex-direction: column;
     border: 2px dotted blue;
 }
 .radio-btn-1,.radio-btn-2, .radio-btn-3, .radio-btn-4 {
     border: 1px solid yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 5px;
 }
-.radio-btn-2 {
-}
-.radio-btn-3 {
-}
-.radio-btn-4 {
-}
+
 button {
     border: 1px solid green;
     padding: 5px;
     text-align: center;
-    /* margin-right: 20px; */
 }
 .btn-container {
     display: flex;
     justify-content: center;
 }
+
+.test {
+    height: 50px;
+    width: 50%;
+    margin: auto;
+    background-color: #d4efdf;
+} */

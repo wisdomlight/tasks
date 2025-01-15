@@ -19,50 +19,65 @@
 
         <!-- ASIDE LEFT -->
 
-        <aside class="left-aside" id="left-aside">
-            <h2>List of all tasks</h2>
-        </aside>
+            <aside class="left-aside" id="left-aside">
+                <h2>List of all tasks</h2>
+            </aside>
 
         <!-- MAIN -->
 
-        <main class="main-content" id="main-content">
-            <div class="matrix" id="matrix">
-                <div class="cell matrix-1">Urgent</div>
-                <div class="cell matrix-2">Important</div>
-                <div class="cell matrix-3">Not-urgent</div>
-                <div class="cell matrix-4">Not-important</div>
-            </div>
+            <main class="main-content" id="main-content">
+                <div class="matrix" id="matrix">
+                    <div class="cell urgent matrix-1">Urgent</div>
+                    <div class="cell important matrix-2">Important</div>
+                    <div class="cell not-urgent matrix-3">Not-urgent</div>
+                    <div class="cell not-important matrix-4">Not-important</div>
+                </div>
                 <div class="input-bar" id="input-bar">
-                    <input type="text" id="" value="" name="" placeholder="Enter your task">
+                    <input class="input" type="text" id="" value="" name="" placeholder="Enter your task">
                 </div>
-            </div>
-            <div class="radio-btns" id="radio-btns">
-                <div class="radio-btn-1">
-                    <input type="radio" id="urgent" value="" name="radio-btns">
-                    <label for="urgent">urgent</label>
-                </div>
-                <div class="radion-btn-2">
-                    <input type="radio" id="important" value="" name="radio-btns">
-                    <label for="important">important</label>
-                </div>
-                <div class="radio-btn-3">
-                    <input type="radio" id="not-urgent" value="" name="radio-btns">
-                    <label for="not-urgent">not-urgent</label>
-                </div>
-                <div class="radio-btn-4">
-                    <input type="radio" id="not-important" value="" name="radio-btns">
-                    <label for="not-important">not-important</label>
-                </div>
-                <div class="btn-container" id="btn-container">
-                    <button type="button">Add Task</button>
-                </div>
-            </div>
-        </main>
+            </main>
 
         <!-- ASIDE RIGHT -->
 
-        <aside class="right-aside" id="right-aside"><h2>Right Aside</h2></aside>
+            <aside class="right-aside" id="right-aside">
+                <h2>Right Aside</h2>
+            </aside>
     </div>
-    
+   <hr> 
+    <div class="input-container">
+        <input class="input" type="text" placeholder="Enter your task">
+    </div>
+    <script src="./index.js"></script>
 </body>
 </html>
+
+
+
+<!-- scraps -->
+
+    <!-- <div class="test">
+        <p>hi there</p>
+    </div>
+    <div class="btns" id="btns">
+        <div class="radio-btns" id="radio-btns">
+            <div class="radio-btn-1">
+                <input type="radio" id="urgent" value="" name="radio-btns">
+                <label for="urgent">urgent</label>
+            </div>
+            <div class="radio-btn-2">
+                <input type="radio" id="important" value="" name="radio-btns">
+                <label for="important">important</label>
+            </div>
+            <div class="radio-btn-3">
+                <input type="radio" id="not-urgent" value="" name="radio-btns">
+                <label for="not-urgent">not-urgent</label>
+            </div>
+            <div class="radio-btn-4">
+                <input type="radio" id="not-important" value="" name="radio-btns">
+                <label for="not-important">not-important</label>
+            </div>
+            <div class="btn-container" id="btn-container">
+                <button type="button">Add Task</button>
+            </div>
+        </div>
+    </div> -->
